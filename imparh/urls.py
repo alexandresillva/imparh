@@ -1,8 +1,8 @@
 from django.contrib import admin
-from django.urls import path
-import imparh.core.views
+from django.urls import path, include
 
 urlpatterns = [
-    path('', imparh.core.views.home),
+    path('core/', include('imparh.core.urls')),
     path('admin/', admin.site.urls),
+    path('candidatos/', include('imparh.candidatos.urls')),
 ]

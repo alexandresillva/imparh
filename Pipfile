@@ -4,9 +4,24 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flake8 = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+mypy = "*"
+autopep8 = "*"
+codecov = "*"
 
 [packages]
 django = "*"
+gunicorn = "*"
+pytest-django = "*"
+python-decouple = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+djangorestframework = "*"
+uuid = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.6"
