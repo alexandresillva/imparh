@@ -5,6 +5,8 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.utils import timezone
 from django.core.mail import send_mail
+from django.forms import ModelForm
+
 
 
 class UserManager(BaseUserManager):
@@ -105,6 +107,12 @@ class EstadoCivil(models.Model):
 
     def __str__(self):
         return self.nome
+
+
+class EstadoCivilForm(ModelForm):
+    class Meta:
+        model = EstadoCivil
+        fields = ['nome']
 
 
 class Escolaridade(models.Model):

@@ -21,17 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="42171abd-3e48-4939-b302-0f8953fba304" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/candidatos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/candidatos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/candidatos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/concursos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/concursos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imparh/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/core/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/candidatos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/core/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imparh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,21 +52,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imparh/templates/core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imparh/core/static" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\core\static" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\core" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\concursos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\core" />
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\candidatos" />
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh" />
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos\templates" />
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos\templates\candidatos" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\core" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\concursos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +82,12 @@
       <workItem from="1603290618202" duration="1589000" />
       <workItem from="1603307502398" duration="653000" />
       <workItem from="1603308327088" duration="7687000" />
-      <workItem from="1603316482836" duration="3862000" />
+      <workItem from="1603316482836" duration="9569000" />
+      <workItem from="1603372357072" duration="2706000" />
+      <workItem from="1603476180068" duration="7000" />
+      <workItem from="1603573008578" duration="7512000" />
+      <workItem from="1603632375020" duration="1644000" />
+      <workItem from="1603655894810" duration="3000" />
     </task>
     <servers />
   </component>

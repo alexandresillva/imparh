@@ -1,0 +1,111 @@
+body {
+  padding-top: 56px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.header-top{
+    color: #FFF;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+.bg-default-prefeitura{
+  background-color: #64A9A4;
+}
+
+.card-bg-default-prefeitura{
+  background-color: #64A9A4 !important;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+    background-color: #64a9a4;
+    border-bottom: 10px solid #55908c;
+    bottom: 0;
+    padding: 26px 0 0;
+    position: relative;
+    right: 0;
+    width: 100%;
+}
+
+footer address,
+footer a {
+    color: #FFF;
+}
+
+footer img.logo {
+    display: block;
+    margin-bottom: 24px;
+    float: none;
+}
+
+footer nav {
+    margin-bottom: 24px;
+}
+
+
+footer nav h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.45em;
+}
+
+footer nav ul li a {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+footer nav h6, footer nav ul li a {
+    color: #F8F8F8;
+    text-shadow: 0 0 0 1px;
+    font-weight: bold;
+}
+
+
+.address  {
+    font-size: 14px;
+    line-height: 18px;
+    color: #F8F8F8;
+    text-shadow: 0 0 0 1px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.address li {
+    list-style: none;
+}
+
+.social-medias-footer {
+    margin: 0;
+}
+
+.social-medias-footer li {
+    display: inline-block;
+    margin: 8px 12px;
+}
+
+.social-medias-footer li a {
+    font-size: 36px;
+}
+

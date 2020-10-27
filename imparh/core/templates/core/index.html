@@ -1,13 +1,134 @@
+{% load static %}
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %} ">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'fontawesome/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'fontawesome/css/solid.css' %}">
+    <link rel="stylesheet" href="{% static 'fontawesome/css/brands.css' %}">
+
+
+    <script src="{% static 'jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'fontawesome/js/fontawesome.js' %}"></script>
+    <script src="{% static 'fontawesome/js/solid.js' %}"></script>
+    <script src="{% static 'fontawesome/js/brands.js' %}"></script>
+
+    <title>Concursos e seleções</title>
 </head>
 <body>
-    <h1>Core</h1>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-default-prefeitura fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Concursos e Seleções</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mr-auto header-top">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Concursos e seleções
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="portfolio-1-col.html">Em andamento</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">Realizados</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>First Slide</h3>
+            <p>This is a description for the first slide.</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Second Slide</h3>
+            <p>This is a description for the second slide.</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1 class="my-4">Concursos e Seleções</h1>
+    <div class="row pb-5">
+      <div class="col-lg-12 mb-12">
+        <div class="card h-100">
+          <h4 class="card-header card-bg-default-prefeitura">Inscrições Abertas</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-2 mb-4">
+              <img src="{% static 'images/logo.png' %}" alt="Logo Branca - Prefeitura Municipal de Fortaleza">
+          </div>
+          <div class="col-lg-6 mb-4">
+              <ul class="address">
+                  <li>
+                      <address>Rua São José, 01 - Centro<br>Fortaleza-CE -&nbsp;CEP: 60.060-170<br>Fala Fortaleza: 0800.285.0880</address>
+                  </li>
+              </ul>
+
+          </div>
+          <div class="col-lg-4">
+              <nav class="redes-sociais">
+					<h6>Prefeitura nas Redes Sociais</h6>
+					<ul class="social-medias-footer">
+						<li class="twitter"><a href="https://twitter.com/prefeiturapmf"><em class="fab fa-twitter-square"></em></a></li>
+						<li class="facebook"><a href="https://www.facebook.com/PrefeituradeFortaleza"><em class="fab fa-facebook"></em></a></li>
+						<li class="youtube"><a href="https://www.youtube.com/user/prefeiturafortaleza"><em class="fab fa-youtube"></em></a></li>
+					</ul>
+				</nav>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+
 </body>
 </html>
