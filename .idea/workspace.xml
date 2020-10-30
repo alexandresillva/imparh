@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42171abd-3e48-4939-b302-0f8953fba304" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env-sample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/static/MediaCreationTool20H2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/templates/candidatos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/candidatos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imparh/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/core/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
-  <component name="JupyterTrust" id="baf43de1-f808-4699-a585-45568b789c5b" />
+  <component name="JupyterTrust" id="be8259ce-687e-4666-8299-7a6584012e00" />
   <component name="ProjectId" id="1jBvAq7w03LwF9qWYlMLVtMTusd" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -56,18 +58,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandre Ribeiro\Projetos\imparh\imparh\imparh\core\templates" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\core" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\candidatos" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\core\static" />
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\core" />
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos" />
       <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\concursos" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\core" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\candidatos" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos\templates" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos\templates\candidatos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,6 +90,8 @@
       <workItem from="1603573008578" duration="7512000" />
       <workItem from="1603632375020" duration="1644000" />
       <workItem from="1603655894810" duration="3000" />
+      <workItem from="1604063828610" duration="1939000" />
+      <workItem from="1604075071183" duration="594000" />
     </task>
     <servers />
   </component>
