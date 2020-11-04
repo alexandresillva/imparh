@@ -35,6 +35,7 @@ env.bak/
 venv.bak/
 *.idea/
 .idea/
+.idea/workspace.xml
 
 # mypy
 .mypy_cache/

@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
-AUTH_USER_MODEL = 'core.User'
+DEFAULT_FROM_EMAIL = 'alexandre@adsr.com.br'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -18,8 +18,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'imparh.core',
-    'imparh.candidatos',
+    'test_without_migrations',
+    'django_extensions',
+    'widget_tweaks',
+    'imparh.core.apps.CoreConfig',
+    'imparh.candidatos.apps.CandidatosConfig',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +135,11 @@ if not IS_DEV:
 
     INSTALLED_APPS.append('s3_folder_storage')
     INSTALLED_APPS.append('storages')
+
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    EMAIL_BACKEND = config('EMAIL_BACKEND')
+    EMAIL_HOST = config('EMAIL_HOST')
+    EMAIL_PORT = config('EMAIL_PORT', cast=int)
+    EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+    EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')

@@ -19,30 +19,77 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42171abd-3e48-4939-b302-0f8953fba304" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env-sample" beforeDir="false" />
+    <list default="true" id="6fe00918-3496-438f-93fa-74221cccbff5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imparh/candidatos/templates/candidatos/candidatos_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/imparh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/core/static/MediaCreationTool20H2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/core/templates/candidatos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/candidatos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imparh/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/core/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/migrations/0002_auto_20201021_1734.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/migrations/0003_auto_20201021_1948.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/candidatos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/candidatos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/concursos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/concursos/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/concursos/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/concursos/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/concursos/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/concursos/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/concursos/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/migrations/0002_auto_20201021_1945.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/migrations/0003_auto_20201021_1948.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/templates/candidatos/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/inscricoes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/inscricoes/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/inscricoes/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/inscricoes/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/inscricoes/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/inscricoes/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/inscricoes/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/isencoes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/isencoes/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/isencoes/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/isencoes/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/isencoes/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/isencoes/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/isencoes/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imparh/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/imparh/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="2" />
-  </component>
-  <component name="JupyterTrust" id="be8259ce-687e-4666-8299-7a6584012e00" />
-  <component name="ProjectId" id="1jBvAq7w03LwF9qWYlMLVtMTusd" />
+  <component name="JupyterTrust" id="baf43de1-f808-4699-a585-45568b789c5b" />
+  <component name="ProjectId" id="1jcbQrzJIrifLok4sUBcOfH5e1Q" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -51,47 +98,64 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imparh/core/static" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imparh/candidatos/tests" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alexandre Ribeiro\Projetos\imparh\imparh\imparh\core\templates" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\core" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\candidatos" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\core\static" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\templates\core" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos" />
-      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\concursos" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidatos\tests" />
+      <recent name="C:\Users\alexandre\Projetos\imparh\imparh\imparh\candidate" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="imparh" type="Python.DjangoServer" factoryName="Django server">
+      <module name="imparh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="imparh.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\alexandre\Projetos\imparh\imparh\.venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42171abd-3e48-4939-b302-0f8953fba304" name="Default Changelist" comment="" />
-      <created>1603290159297</created>
+      <changelist id="6fe00918-3496-438f-93fa-74221cccbff5" name="Default Changelist" comment="" />
+      <created>1604106315605</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603290159297</updated>
-      <workItem from="1603290160433" duration="32000" />
-      <workItem from="1603290618202" duration="1589000" />
-      <workItem from="1603307502398" duration="653000" />
-      <workItem from="1603308327088" duration="7687000" />
-      <workItem from="1603316482836" duration="9569000" />
-      <workItem from="1603372357072" duration="2706000" />
-      <workItem from="1603476180068" duration="7000" />
-      <workItem from="1603573008578" duration="7512000" />
-      <workItem from="1603632375020" duration="1644000" />
-      <workItem from="1603655894810" duration="3000" />
-      <workItem from="1604063828610" duration="1939000" />
-      <workItem from="1604075071183" duration="594000" />
+      <updated>1604106315605</updated>
+      <workItem from="1604106317264" duration="1176000" />
+      <workItem from="1604166798552" duration="10843000" />
+      <workItem from="1604181108967" duration="5000" />
+      <workItem from="1604440244179" duration="8250000" />
     </task>
     <servers />
   </component>
@@ -108,17 +172,58 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="219" y="58" width="1097" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603291550967">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="219" y="58" width="1097" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603291550967" />
-    <state x="200" y="0" key="SettingsEditor" timestamp="1603308368650">
+    <state x="410" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604179371950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603291586842" />
-    <state x="200" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1603308368650" />
+    <state x="410" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604179371950" />
+    <state width="1865" height="267" key="GridCell.Tab.0.bottom" timestamp="1604180582133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582133" />
+    <state width="1865" height="267" key="GridCell.Tab.0.center" timestamp="1604180582133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582133" />
+    <state width="1865" height="267" key="GridCell.Tab.0.left" timestamp="1604180582133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582133" />
+    <state width="1865" height="267" key="GridCell.Tab.0.right" timestamp="1604180582133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582133" />
+    <state width="1865" height="331" key="GridCell.Tab.1.bottom" timestamp="1604180582129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="331" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582129" />
+    <state width="1865" height="331" key="GridCell.Tab.1.center" timestamp="1604180582129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="331" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582129" />
+    <state width="1865" height="331" key="GridCell.Tab.1.left" timestamp="1604180582129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="331" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582129" />
+    <state width="1865" height="331" key="GridCell.Tab.1.right" timestamp="1604180582129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="331" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604180582129" />
+    <state x="1920" y="0" width="1096" height="1016" maximized="true" key="dock-window-1" timestamp="1604170344828">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="1920" y="0" width="1096" height="1016" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1604170344828" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/imparh/candidatos/templates/candidatos/candidato_detail.html</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

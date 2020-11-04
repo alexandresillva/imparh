@@ -1,7 +1,10 @@
 from django.urls import path
+from imparh.candidatos.views import new, detail
 
-from . import views
+app_name = 'candidatos'
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', new, name='new'),
+    path('<uuid:pk>/', detail, name='detail'),
+
 ]

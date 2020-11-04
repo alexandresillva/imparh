@@ -109,3 +109,22 @@ footer nav h6, footer nav ul li a {
     font-size: 36px;
 }
 
+.errorlist{
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.errorlist li{
+    list-style: none;
+}
+
+ul.errorlist {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+    padding-inline-start: 0 !important;
+}
+
